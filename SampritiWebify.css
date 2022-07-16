@@ -1,0 +1,81 @@
+.heading{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    margin-top: -30px;
+    text-decoration: overline underline;
+    text-decoration-color: rgb(122, 98, 63);
+}
+h1{
+    text-shadow: 3px 3px 5px black;
+    color: rgb(145, 4, 4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    text-align: center;
+}
+nav{
+    background-color: blanchedalmond;
+    padding: 10px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content{
+    margin: 30px 10px 10px 10px;
+}
+.main_2{
+    margin-top: 50px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(blanchedalmond,rgb(185, 135, 44));
+}
+header{
+    background-image: linear-gradient(rgb(185, 135, 44),blanchedalmond);
+}
+.all
+{
+    padding: 50px;
+    margin: 0px 100px 0px 100px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot a{
+    margin: 10px;
+}
+.foot a img:hover{
+    width: 40px;
+    margin-top: -10px;
+}
+.main_2 img{
+    border: 5px solid rgb(225, 99, 120);
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a:hover{
+    background-color:rgb(182, 118, 22);
+    color: antiquewhite;
+}
+body{
+    background-color: beige;
+}
+h4{
+    text-align: center;
+}
